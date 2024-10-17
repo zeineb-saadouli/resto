@@ -1,3 +1,4 @@
+
 body {
 background-color:bisque; 
 }
@@ -11,6 +12,9 @@ background-color:bisque;
     display:flex ;
     background-image: url("Capture\ d’écran\ 2024-10-17\ 092157.png");
     justify-content: center;
+    align-items: center; 
+    height: 300px; 
+
 }
 h1 {
     display: flex ;justify-content: center ;
@@ -32,4 +36,3 @@ flex-wrap: wrap;
 background-color: brown; 
 }
 .end {background-color: antiquewhite;}
-
