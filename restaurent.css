@@ -1,0 +1,35 @@
+body {
+background-color:bisque; 
+}
+#navbarNav {
+    display: flex ;
+    justify-content: flex-end ;
+
+}
+
+.hero_section {
+    display:flex ;
+    background-image: url("Capture\ d’écran\ 2024-10-17\ 092157.png");
+    justify-content: center;
+}
+h1 {
+    display: flex ;justify-content: center ;
+}
+.Menu {
+    display:flex;
+justify-content: center;
+flex-wrap:nowrap;
+align-items: center;
+background-color:blanchedalmond;
+}
+.apropos {display: flex;
+justify-items: center;
+background-color: blanchedalmond;}
+.contact {display: flex; 
+justify-content: center; 
+align-items: center;
+flex-wrap: wrap;
+background-color: brown; 
+}
+.end {background-color: antiquewhite;}
+
