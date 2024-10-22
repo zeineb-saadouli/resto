@@ -1,38 +1,37 @@
-
-body {
-background-color:bisque; 
-}
-#navbarNav {
-    display: flex ;
-    justify-content: flex-end ;
-
-}
-
-.hero_section {
-    display:flex ;
-    background-image: url("Capture\ d’écran\ 2024-10-17\ 092157.png");
-    justify-content: center;
-    align-items: center; 
-    height: 300px; 
-
-}
-h1 {
-    display: flex ;justify-content: center ;
-}
-.Menu {
-    display:flex;
-justify-content: center;
-flex-wrap:nowrap;
-align-items: center;
-background-color:blanchedalmond;
-}
-.apropos {display: flex;
-justify-items: center;
-background-color: blanchedalmond;}
-.contact {display: flex; 
+.hero_section {display: flex; 
+background-image: url(https://s1.1zoom.me/big0/684/The_second_dishes_Roast_470160.jpg); 
 justify-content: center; 
 align-items: center;
+width: auto;
 flex-wrap: wrap;
-background-color: brown; 
 }
-.end {background-color: antiquewhite;}
+#navbarNav {display: flex; 
+justify-content: flex-end; 
+}
+.Menu {display: flex; 
+justify-content: center; 
+align-items: center;
+flex-wrap: wrap; 
+width: auto;
+}
+.Apropos {display: flex; 
+justify-content: baseline; 
+align-items: center; 
+flex-wrap: wrap;
+width: auto; 
+}
+.contact {display: flex; 
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.end {display: flex; 
+justify-content: flex-start;
+align-content: center; 
+flex-wrap: wrap; 
+}
+.Apropos h4 {display: flex; 
+justify-content: center;
+}
+@media (min-width: 1200px)
+
